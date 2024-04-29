@@ -67,7 +67,7 @@ export default function Item({inovações}) {
           p={2}
           margin={2}
           >
-         {item.nombre != 'Centre of Excellence for Evaluation' &&
+         {item.nombre !== 'Centre of Excellence for Evaluation' &&
          
           <img
             srcSet={`${item.img}?w=150&h=76&fit=crop&auto=format&dpr=2 2x`}
@@ -180,7 +180,7 @@ export default function Item({inovações}) {
               </Accordion>
             </Container>
           </Box>
-          {item.nombre != 'Centre of Excellence for Evaluation' &&
+          {item.nombre !== 'Centre of Excellence for Evaluation' &&
           <Box       
             height={567}
             display="block"
